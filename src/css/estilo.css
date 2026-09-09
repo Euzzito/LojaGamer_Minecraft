@@ -87,6 +87,18 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
+/*ESTILIZAÇÃO SLIDESHOW*/
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+#imgBanner{
+    width: 600px;
+    height: 600px;
+}
+
 footer {
     text-align: center;
     padding: 40px;
@@ -97,7 +109,7 @@ footer {
     .menu-hamburguer {
         display: flex;
     }
-    
+
     nav {
         display: none;
         position: absolute;
