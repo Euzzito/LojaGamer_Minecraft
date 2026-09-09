@@ -97,6 +97,7 @@ footer {
     .menu-hamburguer {
         display: flex;
     }
+    
     nav {
         display: none;
         position: absolute;
@@ -107,9 +108,11 @@ footer {
         flex-direction: column;
         padding: 20px 0;
     }
+
     nav.active {
         display: block;
     }
+
     nav ul {
         flex-direction: column;
         text-align: center;
