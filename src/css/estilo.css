@@ -10,8 +10,12 @@
 
 *{
     margin: 0;
-    padding: 0;
+    padding: 0 ;
     box-sizing: border-box;
+}
+
+#container {
+    padding: 0 30px;
 }
 
 body {
@@ -104,9 +108,20 @@ nav ul li a:hover {
 .card{
     display: grid;
     /* Cria coluna automaticas que se ajustam minimo e maximo de 250px e preenche o espaço (fit) */
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-top: 20px;
+}
+@media (max-width: 900px) {
+    .card {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        grid-template-columns: 1fr;
+    }
 }
 .card-game{
     background: var(--bg-card);
