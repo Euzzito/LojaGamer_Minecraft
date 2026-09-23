@@ -1,8 +1,11 @@
 // ARRAY DE IMAGENS
 let imagens=[
-    "src/assets/carro1.jpeg",
-    "src/assets/carro2.jpeg",
-    "src/assets/carro3.jpeg"
+    "src/assets/banner1.jpg",
+    "src/assets/banner2.jpg",
+    "src/assets/banner3.jpg",
+    "src/assets/banner4.jpg",
+    "src/assets/banner5.jpg",
+    "src/assets/banner6.jpg"
 ]
 
 //POSIÇÃO QUE VAI INICIAR AS IMAGENS
